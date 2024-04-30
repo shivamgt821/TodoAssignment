@@ -1,0 +1,93 @@
+.dashboard-table {
+  margin: 20px;
+  color: black;
+  background-color: #e6e6fa;
+}
+
+.dashboard-table h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #de75cc;
+  margin-top: 5px;
+}
+
+.dashboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.dashboard-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dashboard-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.dashboard-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.dashboard-container {
+  margin: 20px;
+  color: black;
+}
+
+.dashboard-table h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.dashboard-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dashboard-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.dashboard-table tbody tr:hover {
+  background-color: #e9e9e9;
+}
+
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #e9e9e9;
+}

@@ -1,0 +1,47 @@
+.navbar-main-container {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-child-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.para-boxes p {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.navbar-donate {
+  margin-left: auto;
+}
+
+#buttons {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#buttons:hover {
+  background-color: #0056b3;
+}
